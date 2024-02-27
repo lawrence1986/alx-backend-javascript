@@ -1,0 +1,21 @@
+// full_server/package.json
+{
+  "name": "full_server",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "babel-node index.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.16.5",
+    "@babel/node": "^7.16.3",
+    "@babel/preset-env": "^7.16.5"
+
+    "scripts": {
+    "dev": "nodemon --exec babel-node --presets=@babel/preset-env ./full_server/server.js"
+  },
+  }
+}

@@ -1,0 +1,6 @@
+// full_server/.babelrc
+{
+  "presets": ["@babel/preset-env"],
+  "plugins": []
+}
+
